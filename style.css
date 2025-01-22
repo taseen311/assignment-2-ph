@@ -15,11 +15,7 @@ body{
     padding: 0px 90px;
  
 }
-/* 
-main{
-    background-image: url(./assets/bg.png);
-  
-} */
+
 
 .col1{ color: orange;}
 .col2{ color: skyblue;}
@@ -51,6 +47,12 @@ main{
 
 
 /* navbar styles */
+.hidden{
+    display: none;
+}
+
+
+
 .nav-logo{
     gap: 10px;
     padding-left: 20px;
@@ -87,6 +89,26 @@ main{
     color:#5D58EF;
     font-weight: 800;
 }
+
+@media screen and (max-width: 576px) { 
+    .hidden{
+         padding-top: 10px;
+         padding-bottom: 10px;
+        border-bottom: brown solid 2px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        height: 50px;
+        
+    }
+   
+
+.present{
+    display: none;
+}
+}
+    
 
 
 /* banner-part */
